@@ -4,10 +4,13 @@
 [pytorch](https://github.com/open-rdc/nav_cloning/tree/pytorch)
 [git branch](https://qiita.com/sunstripe2011/items/53ae4184d021e927b3f3)
 
+```
 cd src
 git clone git@github.com:MoriKen254/timed_roslaunch.git
+```
 
 history
+```
  1928  ls
  1929  cd nav_cloning_ws/
  1930  ls
@@ -81,3 +84,4 @@ history
  1998  ls
  1999  code nav_cloning_node.py
  2000  history
+```
