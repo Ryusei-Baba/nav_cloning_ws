@@ -1,8 +1,8 @@
 # nav_cloning_ws
 ## install
-[master](https://github.com/open-rdc/nav_cloning/tree/master)
-[pytorch](https://github.com/open-rdc/nav_cloning/tree/pytorch)
-[git branch](https://qiita.com/sunstripe2011/items/53ae4184d021e927b3f3)
+[master](https://github.com/open-rdc/nav_cloning/tree/master)   
+[pytorch](https://github.com/open-rdc/nav_cloning/tree/pytorch)   
+[git branch](https://qiita.com/sunstripe2011/items/53ae4184d021e927b3f3)   
 
 ```
 cd src
