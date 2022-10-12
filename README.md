@@ -12,13 +12,13 @@ chmod +x timed_roslaunch.sh
 ```
 ```
 vim ~/.bashrc
+source ~/orne_ws/devel/setup.bash
+source ~/nav_cloning_ws/devel/setup.bash
 export PATH=/usr/local/cuda-11.6/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-11.6/lib64:$LD_LIBRARY_PATH
 source /opt/ros/noetic/setup.bash
 export ROS_MASTER_URI=http://localhost:11311
 export ROS_HOSTNAME=localhost
-source ~/orne_ws/devel/setup.bash
-source ~/nav_cloning_ws/devel/setup.bash
 export TURTLEBOT3_MODEL=burger
 ```
 
