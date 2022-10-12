@@ -5,8 +5,21 @@
 [git branch](https://qiita.com/sunstripe2011/items/53ae4184d021e927b3f3)   
 
 ```
-cd src
+cd ~/nav_cloning_ws/src/nav_cloning/
 git clone git@github.com:MoriKen254/timed_roslaunch.git
+cd ~/nav_cloning_ws/src/nav_cloning/timed_roslaunch/scripts
+chmod +x timed_roslaunch.sh
+```
+```
+vim ~/.bashrc
+export PATH=/usr/local/cuda-11.6/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-11.6/lib64:$LD_LIBRARY_PATH
+source /opt/ros/noetic/setup.bash
+export ROS_MASTER_URI=http://localhost:11311
+export ROS_HOSTNAME=localhost
+source ~/orne_ws/devel/setup.bash
+source ~/nav_cloning_ws/devel/setup.bash
+export TURTLEBOT3_MODEL=burger
 ```
 
 history
