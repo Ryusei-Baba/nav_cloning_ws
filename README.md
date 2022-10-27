@@ -11,6 +11,12 @@ cd ~/nav_cloning_ws/src/nav_cloning/timed_roslaunch/scripts
 chmod +x timed_roslaunch.sh
 ```
 ```
+https://github.com/masakifujiwara1/real_tsudanuma2-3_sim
+```
+```
+https://github.com/masakifujiwara1/draw_nav_cloning
+```
+```
 vim ~/.bashrc
 export ROS_MASTER_URI=http://localhost:11311
 export ROS_HOSTNAME=localhost
