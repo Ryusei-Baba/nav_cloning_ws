@@ -20,12 +20,13 @@ https://github.com/masakifujiwara1/draw_nav_cloning
 vim ~/.bashrc
 export ROS_MASTER_URI=http://localhost:11311
 export ROS_HOSTNAME=localhost
-source ~/orne_ws/devel/setup.bash
-source ~/nav_cloning_ws/devel/setup.bash
 source /opt/ros/noetic/setup.bash
+#source ~/orne_ws/devel/setup.bash
+source ~/nav_cloning_ws/devel/setup.bash
 export PATH=/usr/local/cuda-11.6/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-11.6/lib64:$LD_LIBRARY_PATH
 export TURTLEBOT3_MODEL=burger
+export GAZEBO_MODEL_PATH=/home/ryusei/nav_cloning_ws/src/real_tsudanuma2-3_sim/models:${GAZEBO_MODEL_PATH}
 ```
 
 history
