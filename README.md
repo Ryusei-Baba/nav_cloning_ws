@@ -52,5 +52,10 @@ catkin_make
  1989  code dwa_local_planner_params_waffle.yaml 
  1991  roscd nav_cloning/scripts/
  1993  code nav_cloning_node.py 
-
+```
+```
+cd ~/nav_cloning_ws/src/nav_cloning/scrips/
+code nav_cloning_with_direction_net.py
+165行目　 # x_train = self.transform_color(x_train)
+（色を自動で補正してしまうためコメントアウトする）
 ```
